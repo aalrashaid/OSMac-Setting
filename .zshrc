@@ -110,6 +110,28 @@ source $ZSH/oh-my-zsh.sh
 alias gh="~/Documents/GitHub"
 alias code="code ."
 alias atom="atom ."
+# laravel alias 
+alias laravels="php artisan serve"
+alias laravelc="php artisan cache:clear"
+alias laravelr="php artisan route:clear"
+alias laravelv="php artisan view:clear"
+alias laravelc="php artisan config:clear"
+alias laravelm="php artisan migrate"
+alias laravelmf="php artisan migrate:fresh"
+alias laravelmrs="php artisan migrate:refresh --seed"
+alias laravelmr="php artisan migrate:rollback"
+alias laravelms="php artisan migrate:status"
+
+# npm aliases
+alias nd="npm run dev"
+alias nw="npm run watch"
+alias ns="npm run start"
+alias nis="npm install && npm run start"
+alias nisw="npm install && npm run watch"
+alias nisd="npm install && npm run dev"
+alias nisds="npm install && npm run dev && npm run start"
+alias nisdw="npm install && npm run dev && npm run watch"
+alias nisdsw="npm install && npm run dev && npm run start && npm run watch"
 
 
 eval "$(/opt/homebrew/bin/brew shellenv)"
