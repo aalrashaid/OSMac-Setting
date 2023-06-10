@@ -119,7 +119,7 @@ alias serve="php artisan serve"
 alias sail='[ -f sail ] && sh sail || sh vendor/bin/sail'
 
 #pint Alias
-alias sail='[ -f sail ] && sh sail || sh vendor/bin/sail'
+alias pint='[ -f pint ] && sh pint || sh ./vendor/bin/pint'
 
 
 # npm aliases
