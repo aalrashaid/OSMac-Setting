@@ -112,16 +112,16 @@ alias code="code ."
 alias atom="atom ."
 
 # laravel alias 
-alias host="php artisan serve"
-alias cacheclear="php artisan cache:clear"
-alias routeclear="php artisan route:clear"
-alias viewclear="php artisan view:clear"
-alias configclear="php artisan config:clear"
-alias migrate="php artisan migrate"
-alias migratefresh="php artisan migrate:fresh"
-alias refreshseed="php artisan migrate:refresh --seed"
-alias rollback="php artisan migrate:rollback"
-alias status="php artisan migrate:status"
+alias serve="php artisan serve"
+
+
+#sail alias
+alias sail='[ -f sail ] && sh sail || sh vendor/bin/sail'
+
+#pint Alias
+alias sail='[ -f sail ] && sh sail || sh vendor/bin/sail'
+
+
 # npm aliases
 alias nd="npm run dev"
 alias nw="npm run watch"
